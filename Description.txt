@@ -1,0 +1,34 @@
+Core Data:
+- user
+- Notes
+
+1 - CocoaPods
+- YPImagePicker
+- AACarousel (Not used, ran into problem)
+
+Classes / Files :
+OnBoarding -------------- Using StoryboardUI
+1 - Login - ViewController + ForgotPassword(StoryBoard)
+2 - SignUP - SignUpViewController
+3 - OTP - OTPViewController
+
+Home --------------- Using ***SwiftUI***
+1 - NotesHome - 
+	Notes_MainScreenViewController + NotesCollectionViewCellHandle View
+	- Show All Saved Notes in collectionView
+
+2 - NotesPage - 
+	NotesDetailScreen
+	- Add, Update, Share, changeTheme, add Image(YPImagePicker), add Location.
+
+3 - AddLocationVC - CoreLocation + mapkit
+	- Add location to notes
+
+4 - ThemeSelectorVC
+	- Select Theme in Notes Page
+
+
+--- Common Function------
+5 - Utilities
+   => Functions=> reverseGeoCodingFunction, ShowAlertViewController, DateFromToday, HEXtoColor, ColorToHex, extentionForKeyboard
+
